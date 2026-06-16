@@ -1,0 +1,14 @@
+{
+    "residual_features": [
+        "flow",
+        "speed",
+        "occupancy",
+        "queue_length",
+        "green_time",
+        "lane_num",
+        "is_peak"
+    ],
+    "residual_target": "residual",
+    "final_prediction_formula": "y_hat_final = y_hat_shared + residual_hat",
+    "model": "StandardScaler + Ridge(alpha=10.0)"
+}

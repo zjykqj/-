@@ -1,0 +1,27 @@
+{
+    "numeric_features": [
+        "flow",
+        "speed",
+        "occupancy",
+        "queue_length",
+        "green_time",
+        "cycle_length",
+        "lane_num",
+        "is_peak"
+    ],
+    "categorical_features": [
+        "weather"
+    ],
+    "features": [
+        "flow",
+        "speed",
+        "occupancy",
+        "queue_length",
+        "green_time",
+        "cycle_length",
+        "lane_num",
+        "is_peak",
+        "weather"
+    ],
+    "target": "target_queue"
+}

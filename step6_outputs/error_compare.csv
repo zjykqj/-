@@ -1,0 +1,4 @@
+﻿model,MAE,RMSE,R2
+M1_target_only,8.8105,11.2786,0.933
+M2_shared_direct_transfer,12.9045,23.1068,0.7187
+M3_shared_plus_residual,5.1791,7.9147,0.967

@@ -1,0 +1,4 @@
+﻿dataset,MAE,RMSE,R2
+source_train_A_B_C_D,0.584,1.5183,0.9854
+target_adapt_T_direct_transfer,38.2246,46.0434,0.2373
+target_test_T_direct_transfer,12.9045,23.1068,0.7187

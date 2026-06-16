@@ -1,0 +1,19 @@
+{
+    "task": "Step 6 target intersection final prediction",
+    "target_only_features": [
+        "flow",
+        "speed",
+        "occupancy",
+        "queue_length",
+        "green_time",
+        "cycle_length",
+        "lane_num",
+        "is_peak"
+    ],
+    "models": {
+        "M1": "Target-only model trained only on target_adapt_data",
+        "M2": "Shared model directly transferred to target_test_data",
+        "M3": "Shared model plus target residual correction"
+    },
+    "final_prediction_formula": "M3: y_hat_final = y_hat_shared + residual_hat"
+}

@@ -1,0 +1,5 @@
+﻿dataset,model,MAE,RMSE,R2
+target_adapt_T,shared_direct_transfer,38.2246,46.0434,0.2373
+target_adapt_T,shared_plus_residual,5.5253,8.1881,0.9759
+target_test_T,shared_direct_transfer,12.9045,23.1068,0.7187
+target_test_T,shared_plus_residual,5.1791,7.9147,0.967

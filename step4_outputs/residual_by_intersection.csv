@@ -1,0 +1,7 @@
+﻿dataset,intersection_id,sample_size,residual_mean,residual_std,residual_min,residual_median,residual_max
+source_A_B_C_D,A,999,-0.0244,0.2374,-4.8302,-0.0001,1.6779
+source_A_B_C_D,B,999,0.1915,1.8274,-11.0536,-0.0018,9.7562
+source_A_B_C_D,C,999,-0.1076,0.6789,-8.5603,-0.0005,3.9662
+source_A_B_C_D,D,999,-0.0549,2.307,-16.5538,-0.0002,17.3193
+target_T_adapt,T,50,38.1195,26.0865,-2.5616,48.5847,76.1344
+target_T_test,T,949,12.4109,19.5012,-15.69,2.8672,72.8326
